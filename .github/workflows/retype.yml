@@ -21,11 +21,12 @@ jobs:
 
       - name: Build with Retype
         uses: retypeapp/action-build@latest
+        id: retype-build
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: .retype
+          path: ${{ steps.retype-build.outputs.retype-output-path }}
 
   deploy:
     needs: build
