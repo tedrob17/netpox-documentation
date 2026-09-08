@@ -1,6 +1,6 @@
 input: .
 output: .retype
-
+url: https://tedrob17.github.io/netpox-documentation/
 branding:
   title: NetPox Documentation
   # logo: /static/logo.png   # add later once you upload one
@@ -8,7 +8,7 @@ branding:
 links:
   - text: Netpox Documentation
     link: https://github.com/tedrob17/netpox-documentation
-    icon: brand-github
+    icon: mark-github
 
 footer:
   copyright: "© 2026 NetCompanies Group & NetPox PLC"
