@@ -1,0 +1,14 @@
+input: .
+output: .retype
+
+branding:
+  title: NetPox Documentation
+  # logo: /static/logo.png   # add later once you upload one
+
+links:
+  - text: Netpox Documentation
+    link: https://github.com/tedrob17/netpox-documentation
+    icon: brand-github
+
+footer:
+  copyright: "© 2026 NetCompanies Group & NetPox PLC"
